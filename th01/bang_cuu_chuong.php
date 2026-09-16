@@ -6,8 +6,25 @@
     <title>Bang cuu chuong</title>
 </head>
 <body>
-    <?php
-    echo "<h1>Bảng cửu chương</h1>";
+    <table border="1">
+        <tr>
+            <?php
+            for($i = 1; $i <= 10; $i++) {
+                echo "<th>Chương $i</th>";
+            }
+            ?>
+        </tr>
+        <?php
+            for($i=1; $i<=10; $i++){
+                echo "<tr>";
+                for($j=1; $j<=10; $j++){
+                    echo "<td>$i x $j=". $i*$j."</td>";
+                }
+                echo "</tr>";
+            }
+        ?>
+    </table>
+    <!-- <?php
     for ($i = 1; $i <= 10; $i++) {
         echo "<h2>Bảng cửu chương $i</h2>";
         echo "<ul>";
@@ -17,6 +34,6 @@
         }
         echo "</ul>";
     }
-    ?>
+    ?> -->
 </body>
 </html>
