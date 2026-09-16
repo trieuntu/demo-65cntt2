@@ -6,7 +6,7 @@
     <title>Bang cuu chuong</title>
 </head>
 <body>
-    <table border="1" align="center">
+    <table1 border="1" align="center">
         <tr>
             <?php
             for($i = 1; $i <= 10; $i++) {
@@ -23,7 +23,7 @@
                 echo "</tr>";
             }
         ?>
-    </table>
+    </table1>
     <!-- <?php
     for ($i = 1; $i <= 10; $i++) {
         echo "<h2>Bảng cửu chương $i</h2>";
