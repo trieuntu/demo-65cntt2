@@ -6,7 +6,7 @@
     <title>Bang cuu chuong</title>
 </head>
 <body>
-    <table border="1">
+    <table border="1" align="center">
         <tr>
             <?php
             for($i = 1; $i <= 10; $i++) {
